@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "mvp2";
+    
+    }
+
+
+<h2>Danmeet Singh</h2>
+
+@using (Html.BeginForm("SaveStudent", "Demo", FormMethod.Post))
+
+{
+    <table border="1">
+        <tr><td>Name</td><td>@Html.TextBox("Name ")</td></tr>
+        <tr><td>Address</td><td>@Html.TextBox("Address")</td></tr>
+        <tr><td>Course</td><td>@Html.TextBox("Course")</td></tr>
+        <tr><td>City</td><td>@Html.TextBox("City")</td></tr>
+
+        <tr><td colspan="2"><input type="submit" value="Submit" /></td></tr>
+
+    </table>
+}
+
+
+
