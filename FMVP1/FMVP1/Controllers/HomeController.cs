@@ -26,5 +26,11 @@ namespace FMVP1.Controllers
 
             return View();
         }
+        public ActionResult mvp ()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
